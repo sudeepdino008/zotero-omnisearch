@@ -1,7 +1,7 @@
 {
   "name": "zotero-omnisearch",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fast fuzzy palette search over Zotero titles and authors",
   "config": {
     "addonName": "Omnisearch",
