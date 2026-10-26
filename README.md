@@ -3,6 +3,8 @@
 A fast, fuzzy command palette for your Zotero library, in the spirit of
 Obsidian's Omnisearch.
 
+![Recently used items when the query is empty](docs/screenshots/recent.png)
+
 - **Cmd/Ctrl+G** (library or reader tabs) or **Tools → Omnisearch…** opens the
   palette
 - Matches titles, authors, short titles, publications, tags, year, DOI/ISBN —
@@ -13,6 +15,10 @@ Obsidian's Omnisearch.
 
 In a reader tab this replaces Cmd/Ctrl+G as "find next"; Enter in the find bar
 still jumps to the next match. Esc returns focus to where it was.
+
+| Authors                                           | Prefixes                                      | Typos                                        |
+| ------------------------------------------------- | --------------------------------------------- | -------------------------------------------- |
+| ![Search by author](docs/screenshots/authors.png) | ![Prefix search](docs/screenshots/prefix.png) | ![Typo tolerance](docs/screenshots/typo.png) |
 
 ## How it works
 
